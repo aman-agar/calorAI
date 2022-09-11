@@ -6,11 +6,11 @@ import numpy as np
 import tensorflow_hub as hub
 
 file_path = ''
-path=r'/home/aman-agarwal/new-project/static/Food_Classifier.h5'
+path=r'static/Food_Classifier.h5'
 model = load_model(
        (path),
        custom_objects={'KerasLayer':hub.KerasLayer})
-# model=load_model(r'D:\food_classifier\static\Food_Classifier.h5')
+
 calorie_dict={"Alu ki Sabzi":90,"Apple":52,"Banana":89,"Chole Bhature":427,"kachori":200,"Noodles":138,"pizza":150,"Rajma":333,"samosa":210}
 
 def prediction(file_path):
@@ -41,7 +41,7 @@ def trackCalorie():
 def upload():
     if request.method == 'POST':
       f = request.files['file']
-      file_path=os.path.join(r'/home/aman-agarwal/new-project/static',secure_filename(f.filename))
+      file_path=os.path.join(r'static',secure_filename(f.filename))
       f.save(file_path)
       #Call prediction to predict the output
       result=prediction(file_path)
