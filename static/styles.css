@@ -1,0 +1,142 @@
+#form {
+    
+    align-items: center;
+    height: 450px;
+    width: 900px;
+    align-items: center;
+    /* color: aquamarine; */
+    background-color: rgba(0, 31, 69, 0.593);
+    border-radius: 40px;
+    z-index: 1;
+}
+#title {
+    color: rgb(23 75 75);
+    font-style: normal;
+    font-family: ui-sans-serif;
+    font-weight: 900;
+
+}
+
+#title-des{
+    color: rgb(51, 110, 76);
+    font-family: cursive;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+/* #sg{
+    height: 100px;
+    width: 200px;
+    color: #54047b;
+    font-size: medium;
+    font-style: inherit;
+    border-style: hidden;
+    border-radius: 20px;
+    background: #2382e0;
+} */
+/* #sg:hover{
+    color: aliceblue;
+} */
+
+.image {
+    width: 200px;
+    height: 200px;
+    overflow:visible;
+    margin: 0 auto;
+}
+  
+.image img {
+    width: 100%;
+    transition: 0.2s all ease-in-out;
+}
+  
+.image:hover img {
+    transform: scale(1.2);
+}
+
+.buttn{ 
+    position: absolute;
+    top: 400px;
+    left: 725px;   
+    height: 50px;
+    width: 100px;
+    background-color: #0b7cec;
+    border-radius: 30px;
+    border-style: hidden;
+    color: aliceblue;
+    font-weight: 500;
+    font-size: 17px;
+    font-family: system-ui;
+}
+.buttn{
+    transition-duration: 0.1s;
+}
+.buttn:hover{
+    background-color: #3696f7;
+}
+#labl{
+    position: absolute;
+    color:rgb(21, 0, 89);
+    font-size: xx-large;
+    font-weight: 200;
+    font-family: serif ;
+    top: 300px;
+    left: 630px;
+}
+
+
+#heading{
+    text-align: center;
+    font-size: 45px;
+    color: rgb(23 75 75);
+    font-style: normal;
+    font-family: ui-sans-serif;
+    font-weight: 900;
+
+}
+.box{
+    align-items: center;
+    height: 450px;
+    width: 900px;
+    align-items: center;
+    /* color: aquamarine; */
+    background-color: rgba(79, 163, 135, 0.593);
+    border-radius: 40px;
+    z-index: 1;
+}
+
+.input{
+    position: absolute;
+        z-index: 2;
+        top: 350px;
+        left: 680px;
+        font-size: 17px;
+        color: #e61818;
+        
+}
+.boxsub{
+    position: absolute;
+    z-index: 2;
+    top: 400px;
+    left: 740px;
+    height: 50px;
+    width: 100px;
+    background-color: #0b7cec;
+    border-radius: 30px;
+    border-style: hidden;
+    color: aliceblue;
+    font-weight: 500;
+    font-size: 17px;
+    font-family: system-ui
+}
+
+#prediction-text{
+    position:absolute;
+    top: 480px;
+    left: 500px;
+    color:rgb(10, 10, 10);
+    font-weight: 700;
+    font-size: 25px;
+
+
+}

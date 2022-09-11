@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="{{url_for('static' , filename='styles.css')}}">
+    <link rel="shortcut icon" type="image/png" href="static/download-removebg-preview.png">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CalorAI</title>
+    <h1 id="heading"><center>Welcome to Food Calorie Tracker</center></h1>
+</head>
+<body>
+    
+    <center><p id="title-des">Find how healthy is your food in a few clicks!</p></center><br>
+    <center><div id="form">
+        
+        <lable id="labl">Get started for FREE!</lable>
+        <center><div>
+            <a  href="{{url_for('trackCalorie')}}"> 
+            <input type="button" class="buttn" value="START" >
+        
+        </a></div>
+    </div>
+    
+    <div class="image">
+        <img src="static/download-removebg-preview.png">
+    </div>
+</body>
+</html>
